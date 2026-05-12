@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>INS Arama — Gıda katkıları listesi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <div class="header">
+      <h1>INS Arama - Gıda katkıları listesi</h1>
+      <button id="themeToggle" class="theme-toggle" title="Temayı Değiştir">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </div>
+
+    <div class="controls">
+      <input id="searchInput" type="text" placeholder="INS # girin (ör: 100 veya 150a)" />
+      <button id="searchBtn">Ara</button>
+      <button id="clearBtn" title="Temizle">Temizle</button>
+    </div>
+
+    <div id="status" class="status">Bir INS # girin ve Ara'ya basın.</div>
+
+    <div class="table-wrap">
+      <table id="resultsTable">
+        <thead>
+          <tr>
+            <th>INS #</th>
+            <th>Onay</th>
+            <th>İsim</th>
+            <th>Tip</th>
+            <th>Not</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Sonuç satırları buraya gelecek -->
+        </tbody>
+      </table>
+    </div>
+
+    <div id="pagination" class="pagination">
+      <button id="prevPage" class="page-btn">&lt; Önceki</button>
+      <span id="pageInfo" class="page-info">Sayfa 1 / 1</span>
+      <button id="nextPage" class="page-btn">Sonraki &gt;</button>
+    </div>
+
+    <footer class="footer">Verilerin kaynağı: <code>https://tr.wikipedia.org/wiki/Gıda_katkıları_listesi#"E"_Kodlu_Sınıflandırma</code> Siteyi geliştiren: <code>https://github.com/k4g9</code></footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
