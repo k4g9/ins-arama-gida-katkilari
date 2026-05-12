@@ -32,7 +32,7 @@ main/
 ├── index.html      # Ana HTML dosyası
 ├── styles.css      # CSS stilleri ve tema değişkenleri
 ├── app.js          # JavaScript işlevselliği
-└── veriler.json       # Gıda katkı maddeleri verisi
+└── veriler.json    # Gıda katkı maddeleri verisi
 ```
 
 ## Lisans
