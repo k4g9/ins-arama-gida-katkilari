@@ -28,7 +28,7 @@ Veriler, [Wikipedia'nın Gıda Katkıları Listesi](https://tr.wikipedia.org/wik
 ## Dosya Yapısı
 
 ```
-biyo/
+main/
 ├── index.html      # Ana HTML dosyası
 ├── styles.css      # CSS stilleri ve tema değişkenleri
 ├── app.js          # JavaScript işlevselliği
